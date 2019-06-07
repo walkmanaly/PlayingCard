@@ -37,7 +37,7 @@ struct PlayingCard {
             }
         }
         
-        static var all: [Rank] {
+        static var allRank: [Rank] {
             var allRanks = [Rank.ace]
             for pic in 2...10 {
                 allRanks.append(Rank.numeric(pic))
