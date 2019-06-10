@@ -26,7 +26,7 @@ struct PlayingCard: CustomStringConvertible {
             return self.rawValue
         }
     }
-    
+    // Mark: --
     enum Rank: CustomStringConvertible {
         case ace
         case numeric(Int)

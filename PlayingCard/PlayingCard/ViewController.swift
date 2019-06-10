@@ -21,6 +21,15 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    
+    /// <#Description#>
+    /// - Parameter name: <#name description#>
+    /// - Parameter age: <#age description#>
+    /// - Parameter height: <#height description#>
+    func test(name: String, age: Int, height: Float) {
+        print("\(name)\(age)\(height)")
+    }
 
 
 }
